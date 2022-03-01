@@ -234,14 +234,7 @@ Wider screens - i.e. desktop, laptop, tablet landscape
 Mobile screens - portrait
 -------------------------------------------------------*/
 
-@media (max-width: 35em) {
-}
-
-.banner {
-	color: #fff;
-	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1), rgba(255,0,0,0));
-	padding: 1em 1em 1.25em 1em;
-	text-align: center;
+@media (max-width: 35em) { 
 }
 .bannertut {
 	color: #fff;
@@ -271,10 +264,11 @@ Mobile screens - portrait
     text-align: left;
     opacity: 0.9;
     margin-top: 0;
+    margin-left: 0;
 	
 }
 nav h3, aside h3 {
-	margin-left: 0;
+	margin-left: .6em;
 }
 
 main {
