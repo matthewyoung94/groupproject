@@ -433,6 +433,10 @@ columns.
 	box-shadow: 0 0 25px -5px #000;
 }
 
+.card-content:hover {
+    background-color: #FFF;
+}
+
 /* -----------------------------------------------
 Menu Navigation - vertical layout for smaller screens
 --------------------------------------------------*/
