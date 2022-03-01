@@ -272,8 +272,8 @@ Mobile screens - portrait
 	#wrapper {
 		grid-template-columns: 3fr 5fr 3fr;
 		grid-template-areas:
-			"banner  banner  banner"
 			"menu  menu  menu"
+			"banner  banner  banner"
 			"nav  table  aside"
 			"nav  main  aside"
 			"footer  footer  footer";
