@@ -76,17 +76,6 @@ p {
 	line-height: 1.5;
 	margin: 10px 10px 10px 0;
 }
-p.dropcap:first-letter {
-	float: left;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color:rgba(255, 0, 0, 0.897);
-	font-size: 5em;
-	line-height: 0.2;
-	margin: 8px 5px 0 0;
-	padding-right: 8px;
-	padding-bottom: 4px;
-	padding-top: 2px;
-}
 
 small {
 	font-size: .75em;
@@ -256,10 +245,12 @@ Mobile screens - portrait
 }
 .bannertut {
 	color: #fff;
-	background-image: url(https://jch74.brighton.domains/root/images/WebsiteBanner.jpg);
+	background-image: url(https://jch74.brighton.domains/root/images/securityresized.jpg);
 	background-size: cover;
  	background-repeat: no-repeat;
   	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 1em 1em 1.25em 1em;
 	text-align: right;
 	text-shadow: 5px 5px 5px black;
