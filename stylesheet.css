@@ -338,7 +338,7 @@ Mobile screens - portrait
 .menu {
     background: #000;
     position: fixed;
-    width: 100%;
+    width: 70%;
     padding: 0;
     text-transform: uppercase;
     font-weight: bold;
