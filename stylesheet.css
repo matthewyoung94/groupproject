@@ -232,20 +232,20 @@ footer {
 #wrappertut {
     display: grid;
     grid-gap: 0px;
-    grid-template-areas: "menu" "banner" "nav" "table" "main" "aside" "footer";
+    grid-template-areas: "menu" "bannertut" "nav" "table" "main" "aside" "footer";
 }
 
 @media (min-width: 50em) {
     #wrappertut {
         grid-template-columns: 3fr 6fr;
-        grid-template-areas: "menu  menu" "banner  banner" "main  main" "footer  footer";
+        grid-template-areas: "menu  menu" "bannertut  bannertut" "main  main" "footer  footer";
     }
 }
 
 @media (min-width: 60em) {
     #wrappertut {
         grid-template-columns: 2fr 5fr 2.3fr;
-        grid-template-areas: "menu  menu  menu" "banner  banner  banner" "main  main  main" "footer  footer  footer";
+        grid-template-areas: "menu  menu  menu" "bannertut  bannertut bannertut" "main  main  main" "footer  footer  footer";
     }
 }
 
