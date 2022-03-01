@@ -249,7 +249,7 @@ Mobile screens - portrait
 	background-size: cover;
  	background-repeat: no-repeat;
   	width: 100%;
-	margin-left: auto;
+	margin-left: 1em;
 	margin-right: auto;
 	margin-top: 3.3em;
 	padding: 1em 1em 1.25em 1em;
