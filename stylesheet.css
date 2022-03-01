@@ -45,13 +45,14 @@ h3 {
 	line-height: 1;
 	font-size: 1.75em;
 	text-align: center;
-	color: #fff;
+	
 }
 
 h4 {
 	line-height: 1;
 	font-size: 1.375em;
 	text-align: left;
+	color: #fff;
 }
 
 h5 {
