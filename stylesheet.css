@@ -267,8 +267,8 @@ Wider screens - i.e. desktop, laptop, tablet landscape
 	#wrapper {
 		grid-template-columns: 3fr 6fr;
 		grid-template-areas:
-			"banner  banner"
 			"menu  menu"
+			"banner  banner"
 			"nav  table"
 			"aside  main"
 			"footer  footer";
@@ -322,9 +322,9 @@ Mobile screens - portrait
 .bannertut {
 	color: #fff;
 	background-image: url(https://jch74.brighton.domains/root/images/WebsiteBanner.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
+	background-size: cover;
+ 	background-repeat: no-repeat;
+  	width: 100%;
 	padding: 1em 1em 1.25em 1em;
 	text-align: right;
 	text-shadow: 5px 5px 5px black;
