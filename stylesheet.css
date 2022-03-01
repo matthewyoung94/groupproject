@@ -174,15 +174,17 @@ Wider screens - i.e. desktop, laptop, tablet landscape
 -------------------------------------------------------*/
 
 #wrappertut {
-    display: grid;
-    grid-gap: 0px;
-    grid-template-areas:    "menu" 
-	   	   	    "bannertut" 
-			    "nav" 
-			    "table" 
-			    "main" 
-			    "aside" 
-			    "footer";
+	margin: 0;
+	padding: 0;
+    	display: grid;
+    	grid-gap: 0px;
+    	grid-template-areas:    "menu" 
+		   	   	"bannertut" 
+				"nav" 
+				"table" 
+			    	"main" 
+			    	"aside" 
+			    	"footer";
 }
 
 @media (min-width: 50em) {
