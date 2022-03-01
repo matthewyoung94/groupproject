@@ -52,7 +52,7 @@ h4 {
 	line-height: 1;
 	font-size: 1.375em;
 	text-align: left;
-	color: #fff;
+	
 }
 
 h5 {
@@ -64,6 +64,7 @@ h5 {
 h6 {
 	line-height: 1;
 	font-size: .875em;
+	color: #fff;
 }
 p {
 	font-size: 1rem;
