@@ -253,7 +253,7 @@ Mobile screens - portrait
 	margin-right: auto;
 	margin-top: 3.3em;
 	padding: 1em 1em 1.25em 1em;
-	text-align: right;
+	text-align: left;
 	text-shadow: 5px 5px 5px black;
 }
 .banner-fluid {
@@ -268,7 +268,7 @@ Mobile screens - portrait
     padding: 0;
     text-transform: uppercase;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     opacity: 0.9;
     margin-top: 0;
 	
