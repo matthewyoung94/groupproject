@@ -5,17 +5,6 @@ Base styles for all screen widths
 	box-sizing: border-box;
 }
 
-body.lj {
-	margin: 0;
-	padding: 0;
-	background-color: #FFF;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #333;
-	background-color: #ddd;
-	font-size: 100%;
-	/*16px=1em*/
-	line-height: 1.2;
-}
 body {
 	margin: 0;
 	padding: 0;
@@ -32,10 +21,7 @@ body {
 	max-width: 70em;
 	margin: 0 auto;
 }
-#wrapperlj {
-	max-width: 70em;
-	margin: 0 auto;
-}
+
 #wrappertut {
 	
 	max-width: 70%;
@@ -105,34 +91,6 @@ blockquote {
 	margin: 0 0 2em 0;
 	border-left: 5px solid #eee;
 }
-
-table {
-	margin-right: 3em;
-	margin-left: 3em;
-	border-spacing: 0;
-	border-collapse: collapse;
-	border-top: 1px solid #ddd;
-	max-width: 35em;
-	box-shadow: 0 0 45px -10px #000;
-	
-}
-
-/**The nth child pseudo-class selects every odd row of the table to apply a background colour
-*Reference - https://developer.mozilla.org/en-US/docs/Web/CSS/%3Anth-child
-*/
-tbody tr:nth-child(odd) {
-	background-color: rgba(83, 81, 81, 0.171);
-}
-
-th, td {
-	font-size: 90%;
-	padding: .2em 1em .2em 1em;
-	vertical-align: middle;
-	text-align: center;
-	white-space: nowrap;
-}
-
-td:empty {}
 
 caption {
 	font-size: 1.2em;
@@ -211,109 +169,77 @@ footer {
 	grid-area: footer;
 }
 
-#wrapper {
-    display: grid;
-    grid-gap: 1px;
-    grid-template-areas: "menu" "banner" "nav" "main" "aside" "footer";
-}
-
-@media (min-width: 50em) {
-    #wrapper {
-        grid-template-columns: 6fr 3fr;
-        grid-template-areas: "menu  menu" "banner  banner" "nav  nav" "table table" "main  aside" "footer  footer";
-    }
-}
-
-@media (min-width: 60em) {
-    #wrapper {
-        grid-template-columns: 2fr 5fr 2.3fr;
-        grid-template-areas: "menu  menu  menu" "banner  banner  banner" "nav  table  aside" "nav  main  aside" "footer  footer  footer";
-    }
-}
-
-#wrappertut {
-    display: grid;
-    grid-gap: 0px;
-    grid-template-areas: "menu" "bannertut" "nav" "table" "main" "aside" "footer";
-}
-
-@media (min-width: 50em) {
-    #wrappertut {
-        grid-template-columns: 3fr 6fr;
-        grid-template-areas: "menu  menu" "bannertut  bannertut" "main  main" "footer  footer";
-    }
-}
-
-@media (min-width: 60em) {
-    #wrappertut {
-        grid-template-columns: 2fr 5fr 2.3fr;
-        grid-template-areas: "menu  menu  menu" "bannertut  bannertut bannertut" "main  main  main" "footer  footer  footer";
-    }
-}
-
-
 /**----------------------------------- 
-   |Queries for different screen sizes|
+    Queries for different screen sizes
    ------------------------------------*/
 
 /* ----------------------------------------------------
 Wider screens - i.e. desktop, laptop, tablet landscape
 -------------------------------------------------------*/
+
+#wrappertut {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-areas:    "menu" 
+	   	   	    "bannertut" 
+			    "nav" 
+			    "table" 
+			    "main" 
+			    "aside" 
+			    "footer";
+}
+
+@media (min-width: 50em) {
+    #wrappertut {
+        grid-template-columns: 3fr 6fr;
+        grid-template-areas:    "menu  menu"
+				"bannertut  bannertut"
+				"nav  table"
+				"aside  main"
+				"footer  footer";
+}
+	
+.banner {
+	padding: 0 0 0 3em;
+}
+
+.card {
+	width: 33%;
+	display: inline;
+}
+}
+
+@media (min-width: 60em) {
+    #wrappertut {
+        grid-template-columns: 2fr 5fr 2.3fr;
+        grid-template-areas:    "menu  menu  menu" 
+				"bannertut bannertut bannertut" 
+				"main  main  main" 
+				"footer  footer  footer";
+}
+	
+.card {
+	width: 25%;
+}
+	
+}
+
+
+
+
 @media screen {
 	html {
 	  scroll-behavior: smooth;
 	}
   }
 
-@media (min-width: 50em) {
-	#wrapper {
-		grid-template-columns: 3fr 6fr;
-		grid-template-areas:
-			"menu  menu"
-			"banner  banner"
-			"nav  table"
-			"aside  main"
-			"footer  footer";
-	}
-
-	.banner {
-		padding: 0 0 0 3em;
-	}
-
-	.card {
-		width: 33%;
-		display: inline;
-	}
-}
-
 
 /* ----------------------------------------------------
 Mobile screens - portrait
 -------------------------------------------------------*/
-/*Timtable not displayed on small width screens*/
 
 @media (max-width: 35em) {
-	table {
-		display: none;
-	}
 }
-
-@media (min-width: 60em) {
-	#wrapper {
-		grid-template-columns: 3fr 5fr 3fr;
-		grid-template-areas:
-			"menu  menu  menu"
-			"banner  banner  banner"
-			"nav  table  aside"
-			"nav  main  aside"
-			"footer  footer  footer";
-	}
-
-	.card {
-		width: 25%;
-	}
-}
-
 
 .banner {
 	color: #fff;
