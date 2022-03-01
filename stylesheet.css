@@ -210,17 +210,45 @@ footer {
 }
 
 #wrapper {
-	display: grid;
-	grid-gap: 0;
-	grid-template-areas:
-		"banner"
-		"menu"
-		"nav"
-		"table"
-		"main"
-		"aside"
-		"footer";
+    display: grid;
+    grid-gap: 1px;
+    grid-template-areas: "menu" "banner" "nav" "main" "aside" "footer";
 }
+
+@media (min-width: 50em) {
+    #wrapper {
+        grid-template-columns: 6fr 3fr;
+        grid-template-areas: "menu  menu" "banner  banner" "nav  nav" "table table" "main  aside" "footer  footer";
+    }
+}
+
+@media (min-width: 60em) {
+    #wrapper {
+        grid-template-columns: 2fr 5fr 2.3fr;
+        grid-template-areas: "menu  menu  menu" "banner  banner  banner" "nav  table  aside" "nav  main  aside" "footer  footer  footer";
+    }
+}
+
+#wrappertut {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-areas: "menu" "banner" "nav" "table" "main" "aside" "footer";
+}
+
+@media (min-width: 50em) {
+    #wrappertut {
+        grid-template-columns: 3fr 6fr;
+        grid-template-areas: "menu  menu" "banner  banner" "main  main" "footer  footer";
+    }
+}
+
+@media (min-width: 60em) {
+    #wrappertut {
+        grid-template-columns: 2fr 5fr 2.3fr;
+        grid-template-areas: "menu  menu  menu" "banner  banner  banner" "main  main  main" "footer  footer  footer";
+    }
+}
+
 
 /**----------------------------------- 
    |Queries for different screen sizes|
