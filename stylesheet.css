@@ -149,7 +149,7 @@ Grid layout
 ------------------------*/
 
 .banner {
-	grid-area: banner;
+	grid-area: bannertut;
 }
 
 .menu {
