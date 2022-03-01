@@ -442,18 +442,18 @@ columns.
 ::-webkit-scrollbar {
     width: 18px;
     height: 15px;
-    background-color: #f7e5dc;
-    background: #f7e5dc
+    background-color: #403f3d;
+    background: #403f3d
 }
 
  ::-webkit-scrollbar-track {
     margin-top: 10%;
-    background: #f7e5dc
+    background: #403f3d
 }
 
  ::-webkit-scrollbar-thumb,
  ::-webkit-scrollbar-thumb:hover {
-    background: #403f3d;
+    background:  #e37405;
     border-radius: 10px
 }
 
