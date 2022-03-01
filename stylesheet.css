@@ -307,14 +307,15 @@ Mobile screens - portrait
 }
 
 .menu {
-	background-image: linear-gradient(to right, rgba(88, 86, 86, 0.034), rgb(107, 105, 105), rgba(88, 86, 86, 0.034));
-	padding: 0;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
-	border-radius: 20px;
-	text-shadow: 5px 5px 5px rgb(63, 187, 224);
-	
+    background: #000;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.9;
+    margin-top: 0;
 	
 }
 nav h3, aside h3 {
