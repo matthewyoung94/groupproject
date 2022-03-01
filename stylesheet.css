@@ -59,12 +59,13 @@ h5 {
 	line-height: 1;
 	font-size: 1.25em;
 	text-align: center;
+	color: #fff;
 }
 
 h6 {
 	line-height: 1;
 	font-size: .875em;
-	color: #fff;
+	
 }
 p {
 	font-size: 1rem;
