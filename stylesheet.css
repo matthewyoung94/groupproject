@@ -33,18 +33,21 @@ h1 {
 	line-height: 1;
 	font-size: 2.25em;
 	text-shadow: 5px 5px 5px black
+	color: #e37405;
 }
 
 h2 {
 	line-height: 1;
 	font-size: 1.75em;
 	text-shadow: 5px 5px 5px black
+		color: #e37405;
 }
 
 h3 {
 	line-height: 1;
 	font-size: 1.75em;
 	text-align: center;
+	color: #e37405;
 	
 }
 
@@ -52,6 +55,7 @@ h4 {
 	line-height: 1;
 	font-size: 1.375em;
 	text-align: left;
+	color: #e37405;
 	
 }
 
@@ -59,7 +63,7 @@ h5 {
 	line-height: 1;
 	font-size: 1.25em;
 	text-align: center;
-	color: #fff;
+	color: #e37405;
 }
 
 h6 {
