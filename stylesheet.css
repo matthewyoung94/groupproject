@@ -473,7 +473,8 @@ Menu Navigation - vertical layout for smaller screens
 }
 
 .menu a:hover {
-	color: #e40606;
+    color: #e37405;
+    transition: 0.2s;
 }
 
 .menu a:active {
