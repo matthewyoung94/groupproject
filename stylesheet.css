@@ -437,6 +437,27 @@ columns.
     background-color: #FFF;
 }
 
+/*Scroll Bar Modification - reference https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar */
+
+::-webkit-scrollbar {
+    width: 18px;
+    height: 15px;
+    background-color: #f7e5dc;
+    background: #f7e5dc
+}
+
+ ::-webkit-scrollbar-track {
+    margin-top: 10%;
+    background: #f7e5dc
+}
+
+ ::-webkit-scrollbar-thumb,
+ ::-webkit-scrollbar-thumb:hover {
+    background: #993440;
+    border-radius: 10px
+}
+
+
 /* -----------------------------------------------
 Menu Navigation - vertical layout for smaller screens
 --------------------------------------------------*/
