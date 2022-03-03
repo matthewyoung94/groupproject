@@ -123,13 +123,13 @@ a:focus {
 	color: rgb(231, 175, 21);
 }
 
-a[href^="#top"] {
+/* -- a[href^="#top"] {
 	font-size: 1em;
 	padding-left: 0em;
 	text-transform: uppercase;
 	font-weight: bold;
 	float: right;
-}
+} --*/
 
 footer a:link {
 	color: #fff;
