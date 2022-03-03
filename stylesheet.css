@@ -8,10 +8,10 @@ Base styles for all screen widths
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #403f3d;
+	background-color: #000;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #fff;
-	background-color: #403f3d;
+	/*--- background-color: #403f3d; ---*/ 
 	font-size: 100%;
 	line-height: 1.2;
 }
