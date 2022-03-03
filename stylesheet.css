@@ -366,7 +366,7 @@ columns.
 /*Scroll Bar Modification - reference https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar */
 
 ::-webkit-scrollbar {
-    width: 18px;
+    width: 10px;
     height: 15px;
     background-color: ##262625;
     background: ##262625;
@@ -380,7 +380,7 @@ columns.
  ::-webkit-scrollbar-thumb,
  ::-webkit-scrollbar-thumb:hover {
     background:  #e37405;
-    border-radius: 5px
+    border-radius: 20px
 }
 
 
