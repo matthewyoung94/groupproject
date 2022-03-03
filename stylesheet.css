@@ -11,9 +11,8 @@ body {
 	background-color: #403f3d;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #fff;
-	background-color: #403f3d);
+	background-color: #403f3d;
 	font-size: 100%;
-	/*16px=1em*/
 	line-height: 1.2;
 }
 
@@ -32,15 +31,15 @@ body {
 h1 {
 	line-height: 1;
 	font-size: 2.25em;
-	text-shadow: 5px 5px 5px black
+	text-shadow: 5px 5px 5px black;
 	color: #e37405;
 }
 
 h2 {
 	line-height: 1;
 	font-size: 1.75em;
-	text-shadow: 5px 5px 5px black
-		color: #e37405;
+	text-shadow: 5px 5px 5px black;
+	color: #e37405;
 }
 
 h3 {
@@ -356,7 +355,8 @@ columns.
 }
 
 .card-content:hover {
-    background-color: #FFF;
+    background-color: #000;
+    transition: 0.5;
 }
 
 /*Scroll Bar Modification - reference https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar */
@@ -475,16 +475,12 @@ input[type="submit"] {
 	width: 100%;
 }
 
-input[type="radio"] {
-	
-}
-
 .video-container {
 	text-align: center;
 	padding: 1em 1em 1em 1em;
 	float: right;
 }
-/*float/clear classes */
+
 .fltrt {
 	/* this class can be used to float an element e.g. image right in the page. The floated element must precede the element it should be next to on the page. */
 	float: right;
@@ -505,6 +501,4 @@ input[type="radio"] {
 .footerimg {
 	float: right;
 	margin-right: .5em;
-
-
 }
