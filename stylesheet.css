@@ -112,6 +112,7 @@ a:visited {
 a:hover {
 	color: #fc0707;
 	text-decoration: underline;
+	transition: 0.9;
 	text-shadow: 2px 2px 5px black
 }
 
