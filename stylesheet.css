@@ -320,8 +320,9 @@ figure {
 }
 footer {
 	color: #fff;
-	background: #555;
+	background: #000;
 	padding: 1em 1.25em 1em 1.25em;
+	opacity: 0.9;
 }
 
 /**Makes images 100% width of containing element i.e. flexible
