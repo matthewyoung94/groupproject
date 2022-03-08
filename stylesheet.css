@@ -86,7 +86,8 @@ p {
 small {
 	font-size: .75em;
 	/* 12px*/
-@@ -90,6 +71,7 @@ blockquote {
+
+blockquote {
 	border-left: 5px solid #eee;
 }
 
@@ -94,7 +95,9 @@ small {
 caption {
 	font-size: 1.2em;
 	font-weight: bold;
-@@ -112,7 +94,7 @@ a:visited {
+
+a:visited {
+	
 a:hover {
 	color: #fc0707;
 	text-decoration: underline;
@@ -103,7 +106,7 @@ a:hover {
 	text-shadow: 2px 2px 5px black
 }
 
-@@ -124,13 +106,7 @@ a:focus {
+a:focus {
 	color: rgb(231, 175, 21);
 }
 
@@ -118,7 +121,8 @@ a:hover {
 
 footer a:link {
 	color: #fff;
-@@ -140,8 +116,7 @@ footer a:link {
+footer a:link {
+	
 Grid layout
 ------------------------*/
 
@@ -128,7 +132,8 @@ Grid layout
 }
 
 .menu {
-@@ -168,91 +143,12 @@ footer {
+
+	footer {
 	grid-area: footer;
 }
 
@@ -221,7 +226,7 @@ Wider screens - i.e. desktop, laptop, tablet landscape
 	text-shadow: 5px 5px 5px black;
 }
 .banner-fluid {
-@@ -261,16 +157,6 @@ Mobile screens - portrait
+Mobile screens - portrait
 }
 
 .menu {
@@ -238,7 +243,7 @@ Wider screens - i.e. desktop, laptop, tablet landscape
 
 }
 nav h3, aside h3 {
-@@ -323,9 +209,7 @@ figure {
+figure {
 }
 footer {
 	color: #fff;
@@ -248,8 +253,7 @@ footer {
 
 }
 
-/**Makes images 100% width of containing element i.e. flexible
-@@ -361,31 +245,6 @@ columns.
+/**Makes images 100% width of containing element i.e. flexible columns.
 	box-shadow: 0 0 25px -5px #000;
 }
 
@@ -281,7 +285,7 @@ footer {
 
 /* -----------------------------------------------
 Menu Navigation - vertical layout for smaller screens
-@@ -419,16 +278,7 @@ Menu Navigation - vertical layout for smaller screens
+Menu Navigation - vertical layout for smaller screens
 }
 
 .menu a:focus {
@@ -297,8 +301,7 @@ Menu Navigation - vertical layout for smaller screens
 	color: #e37405;
 }
 
-
-@@ -482,6 +332,7 @@ input[type="submit"] {
+input[type="submit"] {
 	width: 100%;
 }
 
@@ -306,7 +309,8 @@ Menu Navigation - vertical layout for smaller screens
 .video-container {
 	text-align: center;
 	padding: 1em 1em 1em 1em;
-@@ -508,4 +359,3 @@ input[type="submit"] {
+
+input[type="submit"] {
 .footerimg {
 	float: right;
 	margin-right: .5em;
