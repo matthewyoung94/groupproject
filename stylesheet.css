@@ -172,7 +172,7 @@ footer {
 Wider screens - i.e. desktop, laptop, tablet landscape
 -------------------------------------------------------*/
 
-#wrappertut {
+#wrapper {
 	
     	display: grid;
     	grid-gap: 0px;
@@ -186,7 +186,7 @@ Wider screens - i.e. desktop, laptop, tablet landscape
 }
 
 @media (min-width: 50em) {
-    #wrappertut {
+    #wrapper {
         grid-template-columns: 3fr 6fr;
         grid-template-areas:    "menu  menu"
 				"banner  banner"
@@ -203,7 +203,7 @@ Wider screens - i.e. desktop, laptop, tablet landscape
 }
 
 @media (min-width: 60em) {
-    #wrappertut {
+    #wrapper {
         grid-template-columns: 2fr 5fr 2.3fr;
         grid-template-areas:    "menu  menu  menu" 
 				"bannertut bannertut bannertut" 
