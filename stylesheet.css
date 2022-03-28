@@ -206,7 +206,7 @@ Wider screens - i.e. desktop, laptop, tablet landscape
     #wrapper {
         grid-template-columns: 2fr 5fr 2.3fr;
         grid-template-areas:    "menu  menu  menu" 
-				"bannertut bannertut bannertut" 
+				"bannert banner banner" 
 				"main  main  main" 
 				"footer  footer  footer";
 }
