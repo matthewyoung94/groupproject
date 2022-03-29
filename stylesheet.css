@@ -484,6 +484,11 @@ input[type="submit"] {
 	padding: 1em 1em 1em 1em;
 	float: right;
 }
+.video-container2 {
+	text-align: center;
+	padding: 1em 1em 1em 1em;
+	float: left;
+}
 
 .fltrt {
 	/* this class can be used to float an element e.g. image right in the page. The floated element must precede the element it should be next to on the page. */
