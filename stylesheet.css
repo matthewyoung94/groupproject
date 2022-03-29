@@ -172,18 +172,18 @@ footer {
 Wider screens - i.e. desktop, laptop, tablet landscape
 -------------------------------------------------------*/
 
-#wrapper {
-	
-    	display: grid;
-    	grid-gap: 0px;
-    	grid-template-areas:    "menu" 
-		   	   	"banner" 
-				"nav" 
-				"table" 
-			    	"main" 
-			    	"aside" 
-			    	"footer";
-}
+/* #wrapper { */
+/* 	 */
+/*     	display: grid; */
+/*     	grid-gap: 0px; */
+/*     	grid-template-areas:    "menu"  */
+/* 		   	   	"banner"  */
+/* 				"nav"  */
+/* 				"table"  */
+/* 			    	"main"  */
+/* 			    	"aside"  */
+/* 			    	"footer"; */
+/* } */
 
 @media (min-width: 50em) {
     #wrapper {
@@ -256,7 +256,7 @@ Mobile screens - portrait
 .menu {
     background: #000;
     position: fixed;
-    width: 80%;
+    width: 70%;
     padding: 0 ;
     text-transform: uppercase;
     font-weight: bold;
