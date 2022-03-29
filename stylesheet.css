@@ -172,7 +172,7 @@ footer {
 Wider screens - i.e. desktop, laptop, tablet landscape
 -------------------------------------------------------*/
 
-#wrapper {
+#wrapper {     /* This is causing the responsivity to break but when commented out it causes the menu to break and stick 1/3rd down the page, get Papi to look at it. */
 	
     	display: grid;
     	grid-gap: 0px;
