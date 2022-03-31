@@ -135,17 +135,14 @@ footer a:link {
 /* -----------------------
 Grid layout
 ------------------------*/
-
-.banner {
-	grid-area: banner;
-}
-
 .menu {
 	grid-area: menu;
 }
-
 nav {
 	grid-area: nav;
+}
+.banner {
+	grid-area: banner;
 }
 main {
 	grid-area: main;
@@ -182,9 +179,9 @@ footer {
     #wrapper {
         grid-template-columns: 3fr 6fr;
         grid-template-areas:    "menu  menu"
+				"nav nav"
 				"banner  banner"
-				"nav  table"
-				"aside  main"
+				"main  main"
 				"footer  footer";
 }
 	
@@ -463,7 +460,7 @@ input[type="submit"] {
 
 .video-container {
 	text-align: center;
-	padding: 1em 1em 1em 1em;
+	padding: 1em 1em 2.5em 1em;
 	float: right;
 }
 .video-container2 {
