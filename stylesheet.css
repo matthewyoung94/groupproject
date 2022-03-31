@@ -235,15 +235,15 @@ Mobile screens - portrait
 	height: 15em; /* Changed from 13 */
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0em;  /* Was be 3.3 */
-	padding: 0em 1em 1.25em 1em;
+	margin-top: 3.3em;  /* Was be 3.3 */
+	padding: 1em 0em 1.25em 1em;
 	padding-left: 40px;
 	text-align: left;
 	text-shadow: 5px 5px 5px black;
 }
 .banner-fluid {
 	width: 100%;
-	max-width: 900px;
+	max-width: 1000px;
 }
 
 .menu {
@@ -253,7 +253,7 @@ Mobile screens - portrait
     padding: 0, 0, 0, 0;
     text-transform: uppercase;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     opacity: 0.9;
     margin-top: 0;
     margin-left: 0;
@@ -414,7 +414,7 @@ Menu Navigation - vertical layout for smaller screens
 }
 
 .menu {
-	padding: 0em 0 1em 3em;
+	padding: 1em 0 1em 3em;
 }
 
 .menu li {
@@ -488,8 +488,8 @@ input[type="submit"] {
 	/* this class can be placed on an element or empty div as the final element following the last floated div */
 	clear: both;
 }
-footer {
-	width: 1000px
+.footer {
+	width: auto;
 }
 .footerimg {
 	float: right;
