@@ -411,7 +411,7 @@ Menu Navigation - vertical layout for smaller screens
 }
 
 .menu {
-	padding: 1em 0 1em 3em;
+	padding: 0em 0 1em 3em;
 }
 
 .menu li {
@@ -460,7 +460,8 @@ input[type="submit"] {
 
 .video-container {
 	text-align: center;
-	padding: 1em 1em 2.5em 1em;
+	padding: 1em 1em 1em 1em;
+	margin-bottom: 4em;
 	float: right;
 }
 .video-container2 {
