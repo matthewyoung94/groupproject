@@ -235,7 +235,7 @@ Mobile screens - portrait
 	height: 15em; /* Changed from 13 */
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 3.3em;  /* Was be 3.3 */
+/* 	margin-top: 3.3em;  /* Was be 3.3 */ */
 	padding: 1em 1em 1.25em 1em;
 	padding-left: 40px;
 	text-align: left;
@@ -255,9 +255,7 @@ Mobile screens - portrait
     font-weight: bold;
     text-align: left;
     opacity: 0.9;
-    margin-top: 0;
-    margin-left: 0;
-	
+    	
 }
 nav h3, aside h3 {
 	margin-left: .6em;
@@ -312,7 +310,7 @@ figure {
 	margin: auto;
 }
 footer {
-	width: 1000px;
+	width: auto;
 	color: #fff;
 	background: #000;
 	padding: 1em 1.25em 1em 1.25em;
