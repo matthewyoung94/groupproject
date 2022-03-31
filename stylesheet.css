@@ -414,7 +414,7 @@ Menu Navigation - vertical layout for smaller screens
 }
 
 .menu {
-	padding: 1em 0 1em 3em;
+	padding: 0em 0 1em 3em;
 }
 
 .menu li {
@@ -488,7 +488,7 @@ input[type="submit"] {
 	/* this class can be placed on an element or empty div as the final element following the last floated div */
 	clear: both;
 }
-.footer {
+footer {
 	width: 1000px
 }
 .footerimg {
