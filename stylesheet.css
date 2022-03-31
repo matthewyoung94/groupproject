@@ -488,7 +488,9 @@ input[type="submit"] {
 	/* this class can be placed on an element or empty div as the final element following the last floated div */
 	clear: both;
 }
-
+.footer {
+	width: 1000px
+}
 .footerimg {
 	float: right;
 	margin-right: .5em;
