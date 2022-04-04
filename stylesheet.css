@@ -225,7 +225,7 @@ Mobile screens - portrait
 }
 .banner {
 	color: #fff;
-	background-image: src(padlockbanner.jpg);
+	background-image: padlockbanner.jpg;
 	background-size: cover;
  	background-repeat: no-repeat;
   	width: 100%;
