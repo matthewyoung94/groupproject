@@ -63,7 +63,7 @@ h6 {
 p {
     font-size: 1rem;
     line-height: 1.5;
-    margin: 10px 10px 10px 0;
+    margin: 10px 10px 10px 10px;
 }
 
 small {
@@ -227,7 +227,7 @@ Mobile screens - portrait
     background: #000;
     position: fixed;
     width: 1200px;
-    /* Should be 1000px */
+    /* Should be 1200px */
     padding: 0, 0, 0, 0;
     text-transform: uppercase;
     font-weight: bold;
