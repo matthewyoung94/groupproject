@@ -228,7 +228,7 @@ Mobile screens - portrait
     position: fixed;
     width: 1200px;
     /* Should be 1200px */
-    padding: 0, 0, 1em, 0;
+    padding: 0, 0, 0, 0;
     text-transform: uppercase;
     font-weight: bold;
     text-align: left;
