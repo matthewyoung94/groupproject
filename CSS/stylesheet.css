@@ -23,7 +23,7 @@ body {
 h1 {
     line-height: 1;
     font-size: 2.25em;
-    text-shadow: 15px 15px 15px black;
+    text-shadow: 5px 5px 5px black;
     color: #e37405;
 }
 
