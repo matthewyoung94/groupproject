@@ -25,7 +25,8 @@ h1 {
     font-size: 2.25em;
 /*     text-shadow: 5px 5px 5px black; */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    color: #e37405;
+/*     color: #e37405; */
+    color: #FFF
 }
 
 h2 {
