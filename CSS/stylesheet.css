@@ -23,14 +23,14 @@ body {
 h1 {
     line-height: 1;
     font-size: 2.25em;
-    text-shadow: 5px 5px 5px black;
-    color: #e37405;
+    text-shadow: 5px 5px 5px 5px black;
+    color: #FFF;
 }
 
 h2 {
     line-height: 1;
     font-size: 1.75em;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px 5px black;
     color: #FFF;
 }
 
