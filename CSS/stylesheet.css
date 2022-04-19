@@ -24,7 +24,8 @@ h1 {
     line-height: 1;
     font-size: 2.25em;
     text-shadow: 5px 5px 5px black;
-    border: #000000 1px;
+    border-style: solid;
+    border-color: black;
     color: #e37405;
 }
 
@@ -32,6 +33,8 @@ h2 {
     line-height: 1;
     font-size: 1.75em;
     text-shadow: 5px 5px 5px black;
+    border-style: solid;
+    border-color: black;
     color: #FFF;
 }
 
