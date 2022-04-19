@@ -124,11 +124,6 @@ footer a:link {
     color: #fff;
 }
 
-
-/* -----------------------
-Grid layout
-------------------------*/
-
 .menu {
     grid-area: menu;
 }
@@ -152,11 +147,6 @@ aside {
 footer {
     grid-area: footer;
 }
-
-
-/**----------------------------------- 
-    Queries for different screen sizes
-   ------------------------------------*/
 
 #wrapper {
     /* This is causing the responsivity to break but when commented out it causes the menu to break and stick 1/3rd down the page, get Papi to look at it. */
@@ -192,16 +182,11 @@ footer {
     }
 }
 
-
-/* ----------------------------------------------------
-Mobile screens - portrait
--------------------------------------------------------*/
-
 @media (max-width: 35em) {}
 
 .banner {
     color: #fff;
-    background-image: url("images/padlockbanner.jpg");
+    background-image: url("groupproject/images/padlockbanner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
