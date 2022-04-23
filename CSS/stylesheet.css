@@ -90,15 +90,15 @@ a {
 }
 
 a:link {
-    color: #C00;
+    color: #e37405;
 }
 
 a:visited {
-    color: #990000;
+    color: #e37405;
 }
 
 a:hover {
-    color: #fc0707;
+    color: #e37405;
     text-decoration: underline;
     transition: 0.9;
     text-shadow: 2px 2px 5px black
@@ -213,7 +213,6 @@ footer {
     background: #000;
     position: fixed;
     width: 1200px;
-    /* Should be 1200px */
     padding: 0, 0, 0, 0;
     text-transform: uppercase;
     font-weight: bold;
