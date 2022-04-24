@@ -187,7 +187,7 @@ footer {
 
 .banner {
     color: #fff;
-    background-image: url("https://github.com/paellapapi/groupproject/blob/gh-pages/images/padlockbanner.jpg?raw=true");
+    background-image: src("groupproject/images/padlockbanner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
