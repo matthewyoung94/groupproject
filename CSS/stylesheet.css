@@ -14,7 +14,6 @@ body {
 
 #wrapper {
     max-width: 1200px;
-    /* changed from 70% */
     margin: 0 auto;
     box-shadow: 0 0 45px -10px #000 inset;
 }
@@ -72,18 +71,12 @@ small {
     /* 12px*/
 }
 
-blockquote {
-    padding: 1em 2em 1em 2em;
-    margin: 0 0 2em 0;
-    border-left: 5px solid #eee;
-}
-
-caption {
+/* caption {
     font-size: 1.2em;
     font-weight: bold;
     margin: 1.2em 0 .5em 0;
     text-transform: uppercase;
-}
+} */
 
 a {
     text-decoration: none;
@@ -244,12 +237,11 @@ figure {
     padding: 2%;
     width: 66%;
 }
-
 .art6img {
     float: left;
     padding: 2%;
     width: 66%;
-} -- */
+}
 
 .figcaption1 {
     float: right;
@@ -276,7 +268,7 @@ figure {
     text-align: center;
     padding: 1%;
     margin: auto;
-}
+}  -- */
 
 footer {
     width: auto;
@@ -318,7 +310,6 @@ img {
     transition: 0.5;
 }
 
-
 /*Scroll Bar - reference https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar */
 
 ::-webkit-scrollbar {
@@ -336,7 +327,6 @@ img {
     background: #e37405;
     border-radius: 20px
 }
-
 
 /* -----------------------------------------------
 Menu Navigation - vertical layout for smaller screens
@@ -388,20 +378,19 @@ Menu Navigation - vertical layout for smaller screens
     padding: 1.5em 0 1em 3em;
 }
 
-.menu li {
+/* .menu li {
     display: inline;
     margin: 0 1em 0 0;
-}
+} 
 
 .menu a {
     display: inline;
     align-content: center;
     padding: 0;
     border-bottom: 0;
-}
+} 
 
-
-/*-----------Form-------------*/
+-----------Form-------------
 
 .form {
     text-align: center;
@@ -436,7 +425,7 @@ input[type="submit"] {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-}
+} */
 
 .video-container {
     text-align: center;
@@ -449,23 +438,28 @@ input[type="submit"] {
     padding: 1em 1em 1em 1em;
     float: left;
 }
-
+/* 
 .fltrt {
-    /* this class can be used to float an element e.g. image right in the page. The floated element must precede the element it should be next to on the page. */
+    /* this class can be used to float an element e.g. image right in the page. The floated element must precede the element it should be next to on the page. 
     float: right;
     margin-right: .5em;
     margin-bottom: 1em;
 }
 
 .fltlt {
-    /* this class can be used to float an element e.g. image left in the page. The floated element must precede the element it should be next to on the page. */
+    /* this class can be used to float an element e.g. image left in the page. The floated element must precede the element it should be next to on the page. 
     float: left;
     margin-left: .5em;
 }
 
 .clear {
-    /* this class can be placed on an element or empty div as the final element following the last floated div */
+    /* this class can be placed on an element or empty div as the final element following the last floated div 
     clear: both;
+} */
+
+.footerimg {
+    float: right;
+    margin-right: .5em;
 }
 
 .footerimg {
