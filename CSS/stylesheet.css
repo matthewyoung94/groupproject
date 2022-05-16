@@ -335,7 +335,7 @@ Menu Navigation - vertical layout for smaller screens
     padding: 1.5em 0 1em 3em;
 }
 
-menu li {
+.menu li {
     display: inline;
     margin: 0 1em 0 0;
 }
