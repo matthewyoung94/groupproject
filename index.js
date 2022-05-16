@@ -64,7 +64,7 @@ $(window).scroll( throttle(highlightNavigation,100) );
 // if you don't want to throttle the function use this instead:
 // $(window).scroll( highlightNavigation );
 
-var coll = document.getElementsByClassName("card");
+var coll = document.getElementsByClassName("cards");
 var i;
 
 for (i = 0; i < coll.length; i++) {
