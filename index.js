@@ -63,6 +63,15 @@ $(window).scroll( throttle(highlightNavigation,100) );
 
 // if you don't want to throttle the function use this instead:
 // $(window).scroll( highlightNavigation );
+<style>
+.cardcontent {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
 
 var coll = document.getElementsByClassName("cardbutton");
 var i;
