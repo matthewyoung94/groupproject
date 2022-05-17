@@ -110,27 +110,17 @@ $(window).scroll( throttle(highlightNavigation,100) );
 
 // if you don't want to throttle the function use this instead:
 // $(window).scroll( highlightNavigation );
-<style>
-.cardcontent {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-</style>
-
-var coll = document.getElementsByClassName("cardbutton");
+var coll = document.getElementsByClassName("collapsible");
 var i;
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var card = this.nextElementSibling;
-    if (card.style.display === "block") {
-      card.style.display = "none";
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
     } else {
-      card.style.display = "block";
-    }
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
   });
 }
