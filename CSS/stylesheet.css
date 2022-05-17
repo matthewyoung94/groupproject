@@ -232,7 +232,14 @@ a{
     }
   }
 }
-
+section{
+  height: 100vh;
+  position:relative;
+  margin: 0;
+  padding: 0;  
+  display:block;
+  z-index: 0;
+}
 nav h3,
 aside h3 {
     margin-left: .6em;
