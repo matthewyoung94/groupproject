@@ -91,7 +91,7 @@ a:hover {
 }
 
 a:active {
-    color: rgb(6, 6, 235);
+    color: #e37405;
 }
 
 a:focus {
@@ -393,7 +393,7 @@ Menu Navigation - vertical layout for smaller screens
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #e37405; /* was #555 */
 }
 
 .collapsecontent {
