@@ -19,7 +19,7 @@ menuItems.click(function(e){
       scrollTop: offsetTop
   }, 850);
   e.preventDefault();
-});
+}); 
 
 // Bind to scroll
 $(window).scroll(function(){
