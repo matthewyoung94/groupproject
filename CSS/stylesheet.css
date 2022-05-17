@@ -204,6 +204,33 @@ footer {
     font-weight: bold;
     text-align: left;
     opacity: 0.9;
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:relative;
+    display:table;
+    margin:0 auto;
+li{
+      display:table-cell;
+a{
+        padding:10px 20px;
+        display:block;
+        color:white;
+        text-decoration:none;
+        transition:all 0.3s ease-in-out;
+        &:hover{
+          color:#F38A8A;
+      }
+   }      
+}
+.active{
+	a{
+         color:#F38A8A;
+         border-bottom:3px solid #F38A8A;
+      }
+    }
+  }
 }
 
 nav h3,
