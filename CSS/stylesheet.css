@@ -426,9 +426,9 @@ Menu Navigation - vertical layout for smaller screens
   font-size: 15px;
 }
 
-.active, .collapsible:hover {
+/* .active, .collapsible:hover {
   background-color: #555;
-}
+} */
 
 .collapsecontent {
   padding: 0 18px;
