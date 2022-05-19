@@ -212,7 +212,7 @@ footer {
     display:table;
     margin:0 auto;
 { 
- /*     display:table-cell;
+      display:table-cell;
 a{
         padding:10px 20px;
         display:block;
@@ -239,7 +239,7 @@ section{
   padding: 0;  
   display:block;
   z-index: 0;
-} */
+} 
 nav h3,
 aside h3 {
     margin-left: .6em;
