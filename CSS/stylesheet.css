@@ -204,7 +204,7 @@ footer {
     font-weight: bold;
     text-align: left;
     opacity: 0.9;
-ul{
+/* ul{
     margin:0;
     padding:0;
     list-style:none;
@@ -231,7 +231,7 @@ a{
       }
     }
   }
-}
+} 
 section{
   height: 100vh;
   position:relative;
@@ -239,7 +239,7 @@ section{
   padding: 0;  
   display:block;
   z-index: 0;
-}
+} */
 nav h3,
 aside h3 {
     margin-left: .6em;
